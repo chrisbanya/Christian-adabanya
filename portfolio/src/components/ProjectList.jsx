@@ -1,5 +1,21 @@
 const projects = [
   {
+    title: "Fyrenotes",
+    description:
+      "A dynamic notes app built with React and Material UI, Firebase Authentication and Firestore,",
+    link: "https://fyrenotes.vercel.app/",
+    github: "https://github.com/chrisbanya/FYRENOTES",
+    image: "/assets/fyrenotespic.png",
+  },
+  {
+    title: "EMS",
+    description:
+      "A simple Employee Management System with Firebase FIrestore as DB",
+    link: "https://ems-gray.vercel.app/",
+    github: "https://github.com/chrisbanya/EMS",
+    image: "/assets/emspic.png",
+  },
+  {
     title: "Food Secrets",
     description:
       "A React-based food recipe app that allows users to search for and view detailed recipes, including ingredients and instructions, using the Spoonacular API. Also built with responsive design in mind to enhance user experience using Tailwind Css",
