@@ -7,7 +7,7 @@ const Hero = () => (
   <>
     <section className="flex flex-col-reverse md:flex-row min-h-screen items-center text-center p-5  bg-gray-100 dark:bg-gray-900">
       <div className=" basis-1/2 ">
-        <h1 className="text-3xl font-mono text-gray-900 dark:text-gray-100">
+        <h1 className="text-3xl font-mono text-gray-900 dark:text-gray-100 animate__animated animate__bounceInDown ">
           Hi there, I'm <span className="text-red-600">Christian</span>{" "}
           Adabanya.
         </h1>
@@ -29,7 +29,7 @@ const Hero = () => (
           </Link>
         </div>
       </div>
-      <div className="basis-1/2 ">
+      <div className="basis-1/2 animate__animated animate__backInRight ">
         <img
           src={homeFoto}
           alt="an illustration of a hand typing on a computer from freepik"
